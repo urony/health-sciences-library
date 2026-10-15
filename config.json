@@ -1,0 +1,11 @@
+{
+  "siteTitle": "חומרי לימוד במדעי בריאות",
+  "tagline": "ספרייה מרוכזת של כלים דיגיטליים למורי מדעי הבריאות: מצאו כלי, פתחו אותו והשתמשו בו בכיתה.",
+  "contactEmail": "uronyh@gmail.com",
+  "contactWhatsapp": "0526288851",
+  "repo": {
+    "owner": "urony",
+    "name": "health-sciences-library",
+    "branch": "main"
+  }
+}

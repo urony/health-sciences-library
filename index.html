@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>חומרי לימוד במדעי בריאות</title>
+  <meta name="description" content="ספרייה מרוכזת של כלים דיגיטליים למורי מדעי הבריאות">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">✚</span><span id="brand-title">חומרי לימוד במדעי בריאות</span></a>
+      <form class="search header-search" role="search" id="header-search">
+        <span class="search-icon" aria-hidden="true">🔎</span>
+        <input class="search-input" type="search" name="q" placeholder="חיפוש כלי לפי שם או תיאור" aria-label="חיפוש כלי" autocomplete="off">
+      </form>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"><p class="container page">טוען…</p></main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>רוצים להציע כלי חדש לספרייה? נשמח לשמוע.</p>
+      <button class="btn btn-primary" id="contact-btn" type="button">צור קשר</button>
+      <p style="margin-top:16px;font-size:.85rem"><a href="admin/">כניסת מנהלים</a></p>
+    </div>
+  </footer>
+
+  <dialog id="contact-dialog" aria-labelledby="contact-title">
+    <h2 id="contact-title">צור קשר</h2>
+    <p>כדי להציע כלי, שלחו תיאור וקבצים למנהל הספרייה:</p>
+    <div class="contact-list" id="contact-list"></div>
+    <button class="btn btn-ghost" id="contact-close" type="button">סגירה</button>
+  </dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

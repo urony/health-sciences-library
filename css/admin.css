@@ -1,0 +1,67 @@
+body.admin { background: var(--bg); }
+
+.adm-bar {
+  position: sticky; top: 0; z-index: 30; background: var(--surface); border-bottom: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding: 10px 16px;
+}
+.adm-bar h1 { font-size: 1.1rem; margin: 0; }
+.adm-status { margin-inline-start: auto; font-size: .92rem; color: var(--muted); }
+.adm-status.dirty { color: #9a5b00; font-weight: 700; }
+.adm-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.adm-actions .btn { min-height: 40px; padding: 6px 14px; }
+
+.adm-grid { display: grid; grid-template-columns: 340px 1fr; gap: 20px; padding: 20px 16px 60px; max-width: 1280px; margin: 0 auto; align-items: start; }
+.adm-tree, .adm-main { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+.adm-tree h2, .adm-main h2 { font-size: 1.1rem; margin: 0 0 12px; }
+
+.tree, .tree ul { list-style: none; margin: 0; padding: 0; }
+.tree ul { padding-inline-start: 18px; border-inline-start: 2px solid var(--line); margin-inline-start: 10px; }
+.tree li { margin: 4px 0; border-radius: 10px; }
+.tree li.dragging { opacity: .45; }
+.tree li.drop-target > .tree-row, .tool-row.drop-target { outline: 2px dashed var(--brand); }
+.tree-row { display: flex; align-items: center; gap: 4px; border-radius: 10px; }
+.tree-row.sel { background: var(--brand-soft); }
+.tree-name { flex: 1; text-align: start; background: none; border: 0; font: inherit; padding: 8px 6px; cursor: pointer; border-radius: 8px; color: var(--ink); min-width: 0; }
+.tree-name .tag { font-size: .75rem; color: var(--muted); margin-inline-start: 6px; }
+.mini { background: none; border: 1px solid var(--line); border-radius: 8px; width: 32px; height: 32px; cursor: pointer; font: inherit; color: var(--muted); flex: none; }
+.mini:hover { background: #eef2f4; }
+.grip { cursor: grab; color: var(--muted); padding-inline: 4px; user-select: none; }
+
+.fld { display: block; margin-bottom: 14px; }
+.fld-label { display: block; font-weight: 500; margin-bottom: 4px; }
+.fld small { display: block; color: var(--muted); margin-top: 3px; }
+.fld input[type=text], .fld input[type=url], .fld input[type=date], .fld textarea, .fld select, .row-edit input, .conn input {
+  width: 100%; padding: 10px 12px; border: 1px solid #c7d1d8; border-radius: 10px; font: inherit; background: #fff; color: var(--ink);
+}
+.fld textarea { min-height: 90px; resize: vertical; }
+.ltr { direction: ltr; text-align: left; }
+.chk { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; }
+.chk input { width: 20px; height: 20px; }
+
+.fieldset { border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin-bottom: 16px; }
+.fieldset > legend, .fieldset > .legend { font-weight: 700; padding-inline: 6px; }
+.row-edit { display: grid; grid-template-columns: 1fr 1.4fr auto auto; gap: 8px; margin-bottom: 8px; align-items: center; }
+.row-edit.doc { grid-template-columns: 1fr 1fr 1.4fr auto auto; }
+.topic-pick { display: flex; align-items: center; gap: 10px; padding: 4px 0; flex-wrap: wrap; }
+.topic-pick .name { flex: 1; min-width: 120px; }
+.topic-pick label { display: inline-flex; align-items: center; gap: 6px; }
+.topic-pick .prim { font-size: .88rem; color: var(--muted); }
+
+.tool-row { display: flex; align-items: center; gap: 6px; border: 1px solid var(--line); border-radius: 12px; padding: 6px 8px; margin-bottom: 8px; background: #fff; }
+.tool-row.dragging { opacity: .45; }
+.tool-row .tool-name { flex: 1; background: none; border: 0; font: inherit; text-align: start; cursor: pointer; padding: 8px 4px; }
+
+.btn-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.notice { background: #fff8e6; border: 1px solid #f2d48a; border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; }
+.notice.error { background: #fdecea; border-color: #f0b4ae; }
+.notice ul { margin: 6px 0 0; padding-inline-start: 20px; }
+
+.conn { width: min(560px, 100% - 32px); margin: 40px auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+.conn h1 { margin-top: 0; }
+.conn ol { padding-inline-start: 20px; }
+.conn .ltr-in { direction: ltr; text-align: left; }
+
+@media (max-width: 860px) {
+  .adm-grid { grid-template-columns: 1fr; }
+  .row-edit, .row-edit.doc { grid-template-columns: 1fr; }
+}
