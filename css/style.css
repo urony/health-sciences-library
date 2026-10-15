@@ -65,8 +65,10 @@ body.is-home .header-search { display: none; }
   box-shadow: var(--shadow); transition: transform .15s ease, box-shadow .15s ease;
 }
 .tile:hover { transform: translateY(-3px); box-shadow: 0 2px 4px rgba(16, 35, 46, .08), 0 12px 28px rgba(16, 35, 46, .1); }
-.tile-media { aspect-ratio: 16 / 10; background: var(--brand-soft); display: grid; place-items: center; overflow: hidden; }
-.tile-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tile-media { aspect-ratio: 1 / 1; background: #fff; display: grid; place-items: center; overflow: hidden; border-bottom: 1px solid var(--line); }
+.tile-media:has(.tile-icon) { background: var(--brand-soft); aspect-ratio: 4 / 3; }
+.tile-media img { width: 100%; height: 100%; object-fit: contain; display: block; transition: transform .25s ease; }
+.tile:hover .tile-media img { transform: scale(1.04); }
 .tile-icon { font-size: 3rem; line-height: 1; }
 .tile-body { padding: 14px 16px 16px; }
 .tile-title { margin: 0; font-weight: 700; font-size: 1.1rem; }

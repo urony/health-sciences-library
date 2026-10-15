@@ -362,7 +362,7 @@
     }
     const inside = toolsInTopic(topic.id);
     if (inside.length) {
-      S.notice = { error: true, title: `בנושא יש ${inside.length} כלים. העבירו אותם לנושא אחר (בעריכת הכלי) לפני המחיקה.` };
+      S.notice = { error: true, title: `בנושא ${inside.length === 1 ? 'יש כלי אחד' : `יש ${inside.length} כלים`}. העבירו ${inside.length === 1 ? 'אותו' : 'אותם'} לנושא אחר (בעריכת הכלי) או מחקו ${inside.length === 1 ? 'אותו' : 'אותם'} לפני מחיקת הנושא.` };
       return render();
     }
     if (!confirm(`למחוק את הנושא "${topic.title}"?`)) return;

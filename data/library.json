@@ -1,19 +1,155 @@
 {
   "topics": [
-    { "id": "general", "title": "כללי", "icon": "📚", "parentId": null, "hidden": false, "image": "", "description": "כלים רוחביים שמתאימים לכל תחומי מדעי הבריאות.", "toolOrder": ["tool-sample-ecg"] },
-    { "id": "cardiology", "title": "קרדיולוגיה", "icon": "❤️", "parentId": null, "hidden": false, "image": "", "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.", "toolOrder": [] },
-    { "id": "cardio-ecg", "title": "אק״ג", "icon": "📈", "parentId": "cardiology", "hidden": false, "image": "", "description": "קריאה והבנה של אלקטרוקרדיוגרם.", "toolOrder": ["tool-sample-ecg"] },
-    { "id": "hematology", "title": "המטולוגיה", "icon": "🩸", "parentId": null, "hidden": false, "image": "", "description": "", "toolOrder": [] },
-    { "id": "endocrinology", "title": "אנדוקרינולוגיה", "icon": "🧪", "parentId": null, "hidden": false, "image": "", "description": "הורמונים ובקרה הורמונלית.", "toolOrder": [] },
-    { "id": "endo-thyroid", "title": "בלוטת התריס", "icon": "🦋", "parentId": "endocrinology", "hidden": false, "image": "", "description": "", "toolOrder": [] },
-    { "id": "endo-hyper", "title": "יתר פעילות", "icon": "⚡", "parentId": "endo-thyroid", "hidden": false, "image": "", "description": "", "toolOrder": ["tool-sample-thyroid"] },
-    { "id": "endo-hypo", "title": "תת פעילות", "icon": "🐢", "parentId": "endo-thyroid", "hidden": false, "image": "", "description": "", "toolOrder": ["tool-sample-thyroid"] },
-    { "id": "nephrology", "title": "נפרולוגיה", "icon": "💧", "parentId": null, "hidden": false, "image": "", "description": "", "toolOrder": [] },
-    { "id": "gynecology", "title": "גינקולוגיה", "icon": "🌸", "parentId": null, "hidden": false, "image": "", "description": "", "toolOrder": [] },
-    { "id": "thesis", "title": "עבודת גמר", "icon": "🎓", "parentId": null, "hidden": false, "image": "", "description": "ליווי תלמידים בכתיבת עבודת הגמר.", "toolOrder": ["tool-sample-thesis"] },
-    { "id": "pulmonology", "title": "פולמונולוגיה", "icon": "🫁", "parentId": null, "hidden": false, "image": "", "description": "", "toolOrder": [] },
-    { "id": "neurology", "title": "נוירולוגיה", "icon": "🧠", "parentId": null, "hidden": false, "image": "", "description": "", "toolOrder": [] },
-    { "id": "gastroenterology", "title": "גסטרואנטרולוגיה", "icon": "🍽️", "parentId": null, "hidden": false, "image": "", "description": "", "toolOrder": [] }
+    {
+      "id": "general",
+      "title": "כללי",
+      "icon": "📚",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/general.jpg",
+      "description": "כלים רוחביים שמתאימים לכל תחומי מדעי הבריאות.",
+      "toolOrder": [
+        "tool-sample-ecg"
+      ]
+    },
+    {
+      "id": "cardiology",
+      "title": "קרדיולוגיה",
+      "icon": "❤️",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/cardiology.jpg",
+      "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.",
+      "toolOrder": []
+    },
+    {
+      "id": "cardio-ecg",
+      "title": "אק״ג",
+      "icon": "📈",
+      "parentId": "cardiology",
+      "hidden": false,
+      "image": "",
+      "description": "קריאה והבנה של אלקטרוקרדיוגרם.",
+      "toolOrder": [
+        "tool-sample-ecg"
+      ]
+    },
+    {
+      "id": "hematology",
+      "title": "המטולוגיה",
+      "icon": "🩸",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/hematology.jpg",
+      "description": "",
+      "toolOrder": []
+    },
+    {
+      "id": "endocrinology",
+      "title": "אנדוקרינולוגיה",
+      "icon": "🧪",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/endocrinology.jpg",
+      "description": "הורמונים ובקרה הורמונלית.",
+      "toolOrder": []
+    },
+    {
+      "id": "endo-thyroid",
+      "title": "בלוטת התריס",
+      "icon": "🦋",
+      "parentId": "endocrinology",
+      "hidden": false,
+      "image": "",
+      "description": "",
+      "toolOrder": []
+    },
+    {
+      "id": "endo-hyper",
+      "title": "יתר פעילות",
+      "icon": "⚡",
+      "parentId": "endo-thyroid",
+      "hidden": false,
+      "image": "",
+      "description": "",
+      "toolOrder": [
+        "tool-sample-thyroid"
+      ]
+    },
+    {
+      "id": "endo-hypo",
+      "title": "תת פעילות",
+      "icon": "🐢",
+      "parentId": "endo-thyroid",
+      "hidden": false,
+      "image": "",
+      "description": "",
+      "toolOrder": [
+        "tool-sample-thyroid"
+      ]
+    },
+    {
+      "id": "nephrology",
+      "title": "נפרולוגיה",
+      "icon": "💧",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/nephrology.jpg",
+      "description": "",
+      "toolOrder": []
+    },
+    {
+      "id": "gynecology",
+      "title": "גינקולוגיה",
+      "icon": "🌸",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/gynecology.jpg",
+      "description": "",
+      "toolOrder": []
+    },
+    {
+      "id": "thesis",
+      "title": "עבודת גמר",
+      "icon": "🎓",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/thesis.jpg",
+      "description": "ליווי תלמידים בכתיבת עבודת הגמר.",
+      "toolOrder": [
+        "tool-sample-thesis"
+      ]
+    },
+    {
+      "id": "pulmonology",
+      "title": "פולמונולוגיה",
+      "icon": "🫁",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/pulmonology.jpg",
+      "description": "",
+      "toolOrder": []
+    },
+    {
+      "id": "neurology",
+      "title": "נוירולוגיה",
+      "icon": "🧠",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/neurology.jpg",
+      "description": "",
+      "toolOrder": []
+    },
+    {
+      "id": "gastroenterology",
+      "title": "גסטרואנטרולוגיה",
+      "icon": "🍽️",
+      "parentId": null,
+      "hidden": false,
+      "image": "assets/topics/gastroenterology.jpg",
+      "description": "",
+      "toolOrder": []
+    }
   ],
   "tools": [
     {
@@ -22,11 +158,27 @@
       "description": "כלי שמאפשר לתלמידים לשנות פרמטרים ולראות איך משתנה גל האק״ג. מתאים להדגמה בכיתה ולעבודה עצמית.",
       "updated": "2026-09-01",
       "hidden": false,
-      "topicIds": ["cardio-ecg", "general"],
-      "links": [{ "label": "פתיחת הכלי", "url": "https://example.com/ecg-simulator" }],
+      "topicIds": [
+        "cardio-ecg",
+        "general"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://example.com/ecg-simulator"
+        }
+      ],
       "documents": [
-        { "label": "מדריך למורה", "note": "הנחיות להפעלה בשיעור", "url": "https://example.com/ecg-teacher-guide.pdf" },
-        { "label": "דף עבודה לתלמידים", "note": "", "url": "https://example.com/ecg-worksheet.pdf" }
+        {
+          "label": "מדריך למורה",
+          "note": "הנחיות להפעלה בשיעור",
+          "url": "https://example.com/ecg-teacher-guide.pdf"
+        },
+        {
+          "label": "דף עבודה לתלמידים",
+          "note": "",
+          "url": "https://example.com/ecg-worksheet.pdf"
+        }
       ]
     },
     {
@@ -35,9 +187,23 @@
       "description": "מפת חשיבה אינטראקטיבית שמראה את משוב הבקרה בין ההורמונים, ומה קורה במצבי יתר פעילות ותת פעילות.",
       "updated": "2026-08-15",
       "hidden": false,
-      "topicIds": ["endo-hyper", "endo-hypo"],
-      "links": [{ "label": "פתיחת הכלי", "url": "https://example.com/thyroid-map" }],
-      "documents": [{ "label": "מדריך למורה", "note": "", "url": "https://example.com/thyroid-guide.pdf" }]
+      "topicIds": [
+        "endo-hyper",
+        "endo-hypo"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://example.com/thyroid-map"
+        }
+      ],
+      "documents": [
+        {
+          "label": "מדריך למורה",
+          "note": "",
+          "url": "https://example.com/thyroid-guide.pdf"
+        }
+      ]
     },
     {
       "id": "tool-sample-thesis",
@@ -45,8 +211,15 @@
       "description": "שלבי העבודה, תבנית לכתיבה ורשימת בדיקה לתלמיד. נועד לחסוך למורה זמן בליווי.",
       "updated": "2026-07-20",
       "hidden": false,
-      "topicIds": ["thesis"],
-      "links": [{ "label": "פתיחת המדריך", "url": "https://example.com/thesis-guide" }],
+      "topicIds": [
+        "thesis"
+      ],
+      "links": [
+        {
+          "label": "פתיחת המדריך",
+          "url": "https://example.com/thesis-guide"
+        }
+      ],
       "documents": []
     }
   ]
