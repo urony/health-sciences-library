@@ -96,6 +96,10 @@
 
   function cleanData() {
     const t = (s) => (typeof s === 'string' ? s.trim() : s);
+    const blank = (x) => !t(x.title) && !t(x.description)
+      && !(x.links || []).some((l) => t(l.url)) && !(x.documents || []).some((d) => t(d.url));
+    const blankIds = new Set(S.data.tools.filter(blank).map((x) => x.id));
+    S.data.tools = S.data.tools.filter((x) => !blankIds.has(x.id));
     const topics = S.data.topics.map((x) => ({
       id: x.id, title: t(x.title), icon: t(x.icon) || '', parentId: x.parentId || null,
       hidden: !!x.hidden, image: t(x.image) || '', description: t(x.description) || '',
