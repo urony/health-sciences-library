@@ -31,7 +31,9 @@
       "hidden": false,
       "image": "assets/topics/hematology.jpg",
       "description": "",
-      "toolOrder": []
+      "toolOrder": [
+        "tool-692abr"
+      ]
     },
     {
       "id": "endocrinology",
@@ -173,6 +175,23 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://urony.github.io/Nephroon-escaperoom1/#/intro"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-692abr",
+      "title": "ספר המגמה הלא רשמי בהמטלוגיה",
+      "description": "ספר מגמה \"לא רשמי\" שבא ללמד את נושא ההמטלוגיה: אנטומיה, פיזיולוגיה ופתלווגיה. מלווה באיורים, שאלות תרגול, רשימת מונחים, וסיכום מקוצר לכל נושא .\nהספר מרחיב מעבר לתוכנית הלימודים על מנת להעמיק את ההבנה ואת המנגנונים.",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "hematology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://drive.google.com/file/d/1A9hKhm_LTXeB3BcR4GM4zaLPXN7rF1Cy/view?usp=sharing"
         }
       ],
       "documents": []
