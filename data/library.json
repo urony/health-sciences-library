@@ -10,7 +10,8 @@
       "description": "כלים רוחביים שמתאימים לכל תחומי מדעי הבריאות.",
       "toolOrder": [
         "tool-0nrz0i",
-        "tool-pf77v6"
+        "tool-pf77v6",
+        "tool-bno7al"
       ]
     },
     {
@@ -255,6 +256,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://drive.google.com/file/d/1t04rP0TjAvatBpkn6ybTtAXVzSeoOYYa/view?usp=sharing"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-bno7al",
+      "title": "קבוצת ווטסאפ \"מה חדש בעולם הרפואה\"",
+      "description": "קבוצת ווטוסאפ סגורה ושקטה שמיותת לתלמידי מגמת מדעי הבריאות או למורים במגמה שבה כפעם או פעמיים בשבוע אני מפרסם תקציר של איזושהי ידיעה שפורסמה בעיתונות הרשמית שקשורה לעולם הרפואה בצורה זו או אחרת",
+      "developer": "אורי העליון",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "general"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://chat.whatsapp.com/D3vTiBX6dl9At0vomjv8gB"
         }
       ],
       "documents": []
