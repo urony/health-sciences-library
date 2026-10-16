@@ -9,7 +9,7 @@
       "image": "assets/topics/general.jpg",
       "description": "כלים רוחביים שמתאימים לכל תחומי מדעי הבריאות.",
       "toolOrder": [
-        "tool-sample-ecg"
+        "tool-0nrz0i"
       ]
     },
     {
@@ -21,18 +21,6 @@
       "image": "assets/topics/cardiology.jpg",
       "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.",
       "toolOrder": []
-    },
-    {
-      "id": "cardio-ecg",
-      "title": "אק״ג",
-      "icon": "📈",
-      "parentId": "cardiology",
-      "hidden": false,
-      "image": "",
-      "description": "קריאה והבנה של אלקטרוקרדיוגרם.",
-      "toolOrder": [
-        "tool-sample-ecg"
-      ]
     },
     {
       "id": "hematology",
@@ -53,40 +41,6 @@
       "image": "assets/topics/endocrinology.jpg",
       "description": "הורמונים ובקרה הורמונלית.",
       "toolOrder": []
-    },
-    {
-      "id": "endo-thyroid",
-      "title": "בלוטת התריס",
-      "icon": "🦋",
-      "parentId": "endocrinology",
-      "hidden": false,
-      "image": "",
-      "description": "",
-      "toolOrder": []
-    },
-    {
-      "id": "endo-hyper",
-      "title": "יתר פעילות",
-      "icon": "⚡",
-      "parentId": "endo-thyroid",
-      "hidden": false,
-      "image": "",
-      "description": "",
-      "toolOrder": [
-        "tool-sample-thyroid"
-      ]
-    },
-    {
-      "id": "endo-hypo",
-      "title": "תת פעילות",
-      "icon": "🐢",
-      "parentId": "endo-thyroid",
-      "hidden": false,
-      "image": "",
-      "description": "",
-      "toolOrder": [
-        "tool-sample-thyroid"
-      ]
     },
     {
       "id": "nephrology",
@@ -153,59 +107,6 @@
   ],
   "tools": [
     {
-      "id": "tool-sample-ecg",
-      "title": "סימולטור אק״ג אינטראקטיבי (דוגמה)",
-      "description": "כלי שמאפשר לתלמידים לשנות פרמטרים ולראות איך משתנה גל האק״ג. מתאים להדגמה בכיתה ולעבודה עצמית.",
-      "updated": "2026-09-01",
-      "hidden": false,
-      "topicIds": [
-        "cardio-ecg",
-        "general"
-      ],
-      "links": [
-        {
-          "label": "פתיחת הכלי",
-          "url": "https://example.com/ecg-simulator"
-        }
-      ],
-      "documents": [
-        {
-          "label": "מדריך למורה",
-          "note": "הנחיות להפעלה בשיעור",
-          "url": "https://example.com/ecg-teacher-guide.pdf"
-        },
-        {
-          "label": "דף עבודה לתלמידים",
-          "note": "",
-          "url": "https://example.com/ecg-worksheet.pdf"
-        }
-      ]
-    },
-    {
-      "id": "tool-sample-thyroid",
-      "title": "ציר ההיפותלמוס–יותרת המוח–בלוטת התריס: מפת חשיבה (דוגמה)",
-      "description": "מפת חשיבה אינטראקטיבית שמראה את משוב הבקרה בין ההורמונים, ומה קורה במצבי יתר פעילות ותת פעילות.",
-      "updated": "2026-08-15",
-      "hidden": false,
-      "topicIds": [
-        "endo-hyper",
-        "endo-hypo"
-      ],
-      "links": [
-        {
-          "label": "פתיחת הכלי",
-          "url": "https://example.com/thyroid-map"
-        }
-      ],
-      "documents": [
-        {
-          "label": "מדריך למורה",
-          "note": "",
-          "url": "https://example.com/thyroid-guide.pdf"
-        }
-      ]
-    },
-    {
       "id": "tool-sample-thesis",
       "title": "מדריך מלווה לעבודת גמר (דוגמה)",
       "description": "שלבי העבודה, תבנית לכתיבה ורשימת בדיקה לתלמיד. נועד לחסוך למורה זמן בליווי.",
@@ -218,6 +119,23 @@
         {
           "label": "פתיחת המדריך",
           "url": "https://example.com/thesis-guide"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-0nrz0i",
+      "title": "כלי לתרגול מושגים באנטומיה",
+      "description": "מטרת המערכת היא לתרגל לקראת שאלות אנטומיה במבחנים ובבחינת הבגרות במדעי הבריאות. המערכת מתרגלת מושגים מתוך תוכני הלימוד, שעשויים להופיע בשאלות האנטומיה בבחינה. במהלך התרגול התלמידים יבחנו על המושג בעברית, על שמו באנגלית ועל תפקידו.יש תרגול של מושגים בלבד ותרגול מול איורים. המערכת זוכרת את ההנשואים בהם תלמיד התקשה ומתרגלת אותם שוב.",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "general"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://health-sciences-practice.uronyh.workers.dev/"
         }
       ],
       "documents": []
