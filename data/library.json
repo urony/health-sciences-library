@@ -68,7 +68,9 @@
       "hidden": false,
       "image": "assets/topics/gynecology.jpg",
       "description": "",
-      "toolOrder": []
+      "toolOrder": [
+        "tool-56egl8"
+      ]
     },
     {
       "id": "thesis",
@@ -216,6 +218,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://drive.google.com/file/d/1HD0iiEqYeln_YrcSZrCpQfZV5yyvINzW/view?usp=sharing"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-56egl8",
+      "title": "ספר המגמה הלא רשמי בגינקולוגיה",
+      "description": "ספר מגמה \"לא רשמי\" שבא ללמד את נושא הגינקולוגיה: אנטומיה, פיזיולוגיה ופתולוגיה. מלווה באיורים, שאלות תרגול, רשימת מונחים, וסיכום מקוצר לכל נושא .\nהספר מרחיב מעבר לתוכנית הלימודים על מנת להעמיק את ההבנה ואת המנגנונים.",
+      "developer": "אורי העליון",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "gynecology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://drive.google.com/file/d/1zBPPJldCRG5-JYq6MrYW0iXaLvFbwLWb/view?usp=sharing"
         }
       ],
       "documents": []
