@@ -40,7 +40,9 @@
       "hidden": false,
       "image": "assets/topics/endocrinology.jpg",
       "description": "הורמונים ובקרה הורמונלית.",
-      "toolOrder": []
+      "toolOrder": [
+        "tool-x82u8w"
+      ]
     },
     {
       "id": "nephrology",
@@ -136,6 +138,23 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://health-sciences-practice.uronyh.workers.dev/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-x82u8w",
+      "title": "מקרים קליניים באנדוקרינלוגיה",
+      "description": "הכלי בא לתרגל אנדוקרינולוגיה, התלמיד מקבל מקרה קליני צריך להחליט אילו בדיקות רצוי לעשות מתוך רשימת בדיקת גופניות ומקבל עבורם תשובות  שנכנסות לתיק הרפואי של החולה. אחר כך באופן דומה הוא צריך לחליט מה הבדיקות שכדאי מתוך בדיקות מעבדה ומתוך בדקות הדמיה, ובשלב האחרון הוא צריך לעשות הבחנה וטיפול. התלמיד מקבל על זה מעין ציון כדי להכניס פנימה מסחוק.",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "endocrinology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://sites.google.com/view/endocrine-detective/%D7%94%D7%9E%D7%A9%D7%97%D7%A7"
         }
       ],
       "documents": []
