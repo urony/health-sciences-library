@@ -106,7 +106,7 @@
       toolOrder: (x.toolOrder || []).filter((id) => S.data.tools.some((tl) => tl.id === id)),
     }));
     const tools = S.data.tools.map((x) => ({
-      id: x.id, title: t(x.title), description: t(x.description), updated: x.updated || '',
+      id: x.id, title: t(x.title), description: t(x.description), developer: t(x.developer) || '', updated: x.updated || '',
       hidden: !!x.hidden, topicIds: x.topicIds || [],
       links: (x.links || []).filter((l) => (l.url || '').trim()).map((l) => ({ label: t(l.label) || 'פתיחת הכלי', url: t(l.url) })),
       documents: (x.documents || []).filter((d) => (d.url || '').trim())
@@ -444,6 +444,7 @@
       h('h2', { style: 'margin-top:16px', text: 'עריכת כלי' }),
       field('שם הכלי', textInput(tool, 'title')),
       field('תיאור קצר', textArea(tool, 'description'), 'משפט עד שלושה.'),
+      field('פיתח (לא חובה)', textInput(tool, 'developer', { placeholder: 'למשל: ד״ר לוי, בית ספר אורט' }), 'טקסט חופשי. אפשר להשאיר ריק, ואז לא יוצג באתר.'),
       field('תאריך עדכון', textInput(tool, 'updated', { type: 'date' })),
       checkbox(tool, 'hidden', 'הסתר את הכלי מהספרייה'),
       h('div', { class: 'fieldset' },

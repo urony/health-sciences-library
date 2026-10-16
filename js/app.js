@@ -157,6 +157,7 @@
       h('summary', {}, h('span', { text: tool.title })),
       h('div', { class: 'tool-body' },
         h('p', { text: tool.description }),
+        tool.developer ? h('p', { class: 'tool-dev' }, h('strong', { text: 'פיתח: ' }), tool.developer) : null,
         links.length ? h('div', { class: 'tool-actions' }, links.map((l, i) =>
           h('span', { class: 'link-group' },
             h('a', {

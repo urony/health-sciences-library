@@ -101,6 +101,7 @@ body.is-home .header-search { display: none; }
 .tool[open] > summary::after { transform: rotate(-135deg); }
 .tool-body { padding: 0 18px 18px; border-top: 1px solid var(--line); }
 .tool-body p { margin: 14px 0; }
+.tool-body .tool-dev { margin-top: -4px; color: var(--muted); font-size: .95rem; }
 .tool-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0; }
 .docs { list-style: none; padding: 0; margin: 14px 0; display: grid; gap: 8px; }
 .docs a { font-weight: 500; }
