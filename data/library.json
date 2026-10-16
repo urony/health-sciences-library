@@ -44,7 +44,8 @@
       "image": "assets/topics/endocrinology.jpg",
       "description": "הורמונים ובקרה הורמונלית.",
       "toolOrder": [
-        "tool-x82u8w"
+        "tool-x82u8w",
+        "tool-hpvtjz"
       ]
     },
     {
@@ -197,6 +198,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://drive.google.com/file/d/1A9hKhm_LTXeB3BcR4GM4zaLPXN7rF1Cy/view?usp=sharing"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-hpvtjz",
+      "title": "ספר המגמה הלא רשמי באנדוקרינלוגיה",
+      "description": "ספר מגמה \"לא רשמי\" שבא ללמד את נושא האנדוקרינלוגיה: אנטומיה, פיזיולוגיה ופתולוגיה. מלווה באיורים, שאלות תרגול, רשימת מונחים, וסיכום מקוצר לכל נושא .\nהספר מרחיב מעבר לתוכנית הלימודים על מנת להעמיק את ההבנה ואת המנגנונים.",
+      "developer": "אורי העליון",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "endocrinology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://drive.google.com/file/d/1HD0iiEqYeln_YrcSZrCpQfZV5yyvINzW/view?usp=sharing"
         }
       ],
       "documents": []
