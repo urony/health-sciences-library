@@ -88,6 +88,34 @@
     return null;
   };
 
+  /* ---------- העתקת קישור ---------- */
+
+  async function copyText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      const ta = h('textarea', { style: 'position:fixed;opacity:0' });
+      ta.value = text;
+      document.body.append(ta);
+      ta.select();
+      let ok = false;
+      try { ok = document.execCommand('copy'); } catch { /* ignore */ }
+      ta.remove();
+      return ok;
+    }
+  }
+
+  function copyButton(url, label = 'העתק קישור', cls = 'btn btn-ghost') {
+    const btn = h('button', { class: cls, type: 'button', 'aria-label': `${label}: ${url}` }, label);
+    btn.addEventListener('click', async () => {
+      const ok = await copyText(safeUrl(url));
+      btn.textContent = ok ? 'הועתק ✓' : 'לא ניתן להעתיק';
+      setTimeout(() => { btn.textContent = label; }, 2000);
+    });
+    return btn;
+  }
+
   /* ---------- רכיבי תצוגה ---------- */
 
   function tile(topic) {
@@ -130,15 +158,18 @@
       h('div', { class: 'tool-body' },
         h('p', { text: tool.description }),
         links.length ? h('div', { class: 'tool-actions' }, links.map((l, i) =>
-          h('a', {
-            class: 'btn ' + (i === 0 ? 'btn-primary' : 'btn-secondary'),
-            href: safeUrl(l.url), target: '_blank', rel: 'noopener noreferrer',
-            text: l.label || 'פתיחת הכלי',
-          }))) : null,
+          h('span', { class: 'link-group' },
+            h('a', {
+              class: 'btn ' + (i === 0 ? 'btn-primary' : 'btn-secondary'),
+              href: safeUrl(l.url), target: '_blank', rel: 'noopener noreferrer',
+              text: l.label || 'פתיחת הכלי',
+            }),
+            copyButton(l.url)))) : null,
         docs.length ? h('ul', { class: 'docs' }, docs.map((d) =>
           h('li', {},
             h('a', { href: safeUrl(d.url), target: '_blank', rel: 'noopener noreferrer', text: d.label || 'מסמך' }),
-            d.note ? h('span', { class: 'note', text: ` ‏– ${d.note}` }) : null))) : null,
+            d.note ? h('span', { class: 'note', text: ` ‏– ${d.note}` }) : null,
+            copyButton(d.url, 'העתק קישור', 'copy-mini')))) : null,
         h('div', { class: 'tool-meta' },
           tool.updated ? h('span', { text: `עודכן: ${formatDate(tool.updated)}` }) : null,
           others.length ? h('span', {}, 'מופיע גם ב: ', others.map((t, i) => [
@@ -247,10 +278,12 @@
         h('h3', {}, h('a', { href: `#/topic/${encodeURIComponent(topic.id)}/${encodeURIComponent(t.id)}`, text: t.title })),
         h('div', { class: 'path', text: pathOf(topic.id).map((p) => p.title).join(' ← ') }),
         h('p', { text: t.description }),
-        main ? h('a', {
-          class: 'btn btn-primary', href: safeUrl(main.url), target: '_blank', rel: 'noopener noreferrer',
-          text: main.label || 'פתיחת הכלי',
-        }) : null);
+        main ? h('span', { class: 'link-group' },
+          h('a', {
+            class: 'btn btn-primary', href: safeUrl(main.url), target: '_blank', rel: 'noopener noreferrer',
+            text: main.label || 'פתיחת הכלי',
+          }),
+          copyButton(main.url)) : null);
     });
 
     app.replaceChildren(h('div', { class: 'container page' },

@@ -107,6 +107,14 @@ body.is-home .header-search { display: none; }
 .docs .note { color: var(--muted); font-size: .92rem; }
 .tool-meta { color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: 6px 18px; }
 
+.link-group { display: inline-flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.docs li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.copy-mini {
+  min-height: 32px; padding: 2px 10px; border-radius: 8px; border: 1px solid var(--line);
+  background: transparent; color: var(--muted); font: inherit; font-size: .85rem; cursor: pointer;
+}
+.copy-mini:hover { background: #eef2f4; color: var(--ink); }
+
 /* כפתורים */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px;
