@@ -417,7 +417,7 @@
     try {
       const [cfg, lib] = await Promise.all([
         fetch('config.json', { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error('config'); return r.json(); }),
-        fetch('data/library.json', { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error('library'); return r.json(); }),
+        fetch(`data/library.json?t=${Date.now()}`, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('library'); return r.json(); }),
       ]);
       state.cfg = cfg;
       state.topics = lib.topics || [];
@@ -432,6 +432,20 @@
     buildContact();
     window.addEventListener('hashchange', route);
     route();
+
+    // כשחוזרים ללשונית שנשארה פתוחה, טוענים מחדש את הנתונים כדי לראות עדכונים שפורסמו בינתיים.
+    let loadedAt = Date.now();
+    document.addEventListener('visibilitychange', async () => {
+      if (document.visibilityState !== 'visible' || Date.now() - loadedAt < 60000) return;
+      loadedAt = Date.now();
+      try {
+        const lib = await fetch(`data/library.json?t=${loadedAt}`, { cache: 'no-store' }).then((r) => r.json());
+        state.topics = lib.topics || [];
+        state.tools = lib.tools || [];
+        state.topicMap = new Map(state.topics.map((t) => [t.id, t]));
+        if (!document.querySelector('dialog[open]')) route();
+      } catch { /* נשארים עם הנתונים הקיימים */ }
+    });
   }
 
   init();
