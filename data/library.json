@@ -53,7 +53,9 @@
       "hidden": false,
       "image": "assets/topics/nephrology.jpg",
       "description": "",
-      "toolOrder": []
+      "toolOrder": [
+        "tool-af7fog"
+      ]
     },
     {
       "id": "gynecology",
@@ -73,9 +75,7 @@
       "hidden": false,
       "image": "assets/topics/thesis.jpg",
       "description": "ליווי תלמידים בכתיבת עבודת הגמר.",
-      "toolOrder": [
-        "tool-sample-thesis"
-      ]
+      "toolOrder": []
     },
     {
       "id": "pulmonology",
@@ -109,23 +109,6 @@
     }
   ],
   "tools": [
-    {
-      "id": "tool-sample-thesis",
-      "title": "מדריך מלווה לעבודת גמר (דוגמה)",
-      "description": "שלבי העבודה, תבנית לכתיבה ורשימת בדיקה לתלמיד. נועד לחסוך למורה זמן בליווי.",
-      "updated": "2026-07-20",
-      "hidden": false,
-      "topicIds": [
-        "thesis"
-      ],
-      "links": [
-        {
-          "label": "פתיחת המדריך",
-          "url": "https://example.com/thesis-guide"
-        }
-      ],
-      "documents": []
-    },
     {
       "id": "tool-0nrz0i",
       "title": "כלי לתרגול מושגים באנטומיה",
@@ -173,6 +156,23 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://anatomy-clinical-game.uronyh.workers.dev/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-af7fog",
+      "title": "חדר בריחה - פיזיולוגיה של הנפרון.",
+      "description": "חדר בריחה שנועד לתרגל וללמד את הפיזיולוגיה של הנפרון. כל \"חדר\" הוא חלק מהנפרון, התלמידים אמורים לענות על שאלות שונות, יש מעט הדגמות בחדר. בכל שלב אפשר לפתוח מסמך שמלמד על החלק הרלוונטי בנפרון, כלומר אפשר גם ללמוד מתוך עשיה.",
+      "updated": "2026-10-16",
+      "hidden": false,
+      "topicIds": [
+        "nephrology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://urony.github.io/Nephroon-escaperoom1/#/intro"
         }
       ],
       "documents": []
