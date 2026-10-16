@@ -214,7 +214,10 @@
       h('section', { class: 'hero' }, h('div', { class: 'container' },
         h('h1', { text: state.cfg.siteTitle }),
         h('p', { text: state.cfg.tagline }),
-        searchForm(''))),
+        searchForm(''),
+        h('button', { class: 'btn btn-news', type: 'button', onclick: openNews },
+          '✨ מה חדש?',
+          recentTools().length ? h('span', { class: 'news-count', text: String(recentTools().length) }) : null))),
       h('section', { class: 'container page' },
         h('h2', { class: 'section-title', text: 'נושאים' }),
         roots.length ? h('div', { class: 'tiles' }, roots.map(tile)) : emptyState('הספרייה עדיין ריקה.')));
@@ -333,6 +336,45 @@
     } else if (page === 'home') { headerInput.value = ''; renderHome(); }
     else renderNotFound();
   }
+
+  /* ---------- מה חדש ---------- */
+
+  const NEWS_DAYS = 30;
+  const newsDialog = document.getElementById('news-dialog');
+
+  function recentTools() {
+    const cutoff = Date.now() - NEWS_DAYS * 24 * 60 * 60 * 1000;
+    return state.tools
+      .filter((t) => !t.hidden && primaryVisibleTopic(t) && t.updated)
+      .map((t) => ({ t, time: new Date(t.updated).getTime() }))
+      .filter((r) => !Number.isNaN(r.time) && r.time >= cutoff)
+      .sort((a, b) => b.time - a.time)
+      .map((r) => r.t);
+  }
+
+  function openNews() {
+    const list = document.getElementById('news-list');
+    const items = recentTools();
+    list.replaceChildren();
+    if (!items.length) {
+      list.append(h('p', { class: 'news-empty', text: 'אין עדכונים חדשים כרגע.' }));
+    }
+    items.forEach((t) => {
+      const topic = primaryVisibleTopic(t);
+      list.append(h('a', {
+        class: 'news-item', href: `#/topic/${encodeURIComponent(topic.id)}/${encodeURIComponent(t.id)}`,
+        onclick: () => newsDialog.close(),
+      },
+      h('span', { class: 'news-title', text: t.title }),
+      h('span', { class: 'news-meta', text: `${pathOf(topic.id).map((p) => p.title).join(' ← ')} · ${formatDate(t.updated)}` }),
+      h('span', { class: 'news-desc', text: t.description })));
+    });
+    if (typeof newsDialog.showModal === 'function') newsDialog.showModal();
+    else newsDialog.setAttribute('open', '');
+  }
+
+  document.getElementById('news-close').addEventListener('click', () => newsDialog.close());
+  newsDialog.addEventListener('click', (e) => { if (e.target === newsDialog) newsDialog.close(); });
 
   /* ---------- יצירת קשר ---------- */
 

@@ -439,7 +439,7 @@
         h('label', { class: 'prim' }, prim, ' מיקום ראשי'));
     });
 
-    return h('div', {},
+    const editor = h('div', {},
       h('button', { class: 'btn btn-ghost', type: 'button', onclick: () => { S.selTool = null; render(); }, text: '→ חזרה לנושא' }),
       h('h2', { style: 'margin-top:16px', text: 'עריכת כלי' }),
       field('שם הכלי', textInput(tool, 'title')),
@@ -461,6 +461,17 @@
         picks),
       h('div', { class: 'btn-row' },
         h('button', { class: 'btn btn-danger', type: 'button', onclick: () => deleteTool(tool), text: 'מחיקת כלי' })));
+
+    // כל עריכה של כלי מעדכנת את תאריך העדכון להיום (מזין את חלונית "מה חדש?"). אפשר לשנות ידנית אחר כך.
+    const bump = (e) => {
+      if (e.target.type === 'date') return;
+      tool.updated = today();
+      const dateInput = editor.querySelector('input[type=date]');
+      if (dateInput) dateInput.value = tool.updated;
+    };
+    editor.addEventListener('input', bump, true);
+    editor.addEventListener('change', bump, true);
+    return editor;
   }
 
   /* ---------- מסכים ---------- */
