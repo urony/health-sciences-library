@@ -72,7 +72,8 @@
       "image": "assets/topics/gynecology.jpg",
       "description": "",
       "toolOrder": [
-        "tool-56egl8"
+        "tool-56egl8",
+        "tool-i0c9io"
       ]
     },
     {
@@ -299,6 +300,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://gemini.google.com/gem/1J9rUWz2Yk0hmKIyDUhmtRa8WPbs3o6_O?usp=sharing"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-i0c9io",
+      "title": "סימולצית מחזור",
+      "description": "סימולציה שמדגימה מה קורה מבחינה הורמונלית בשלבים השונים של המחזור, גם מבחינת הורמוני ההיפופיזה, גם בשחלה וגם ברירית הרחם. אפשר לדלג בין שלבים שונים או לראות מה קורה לאורך הזמן.",
+      "developer": "אורי העליון",
+      "updated": "2026-10-20",
+      "hidden": false,
+      "topicIds": [
+        "gynecology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://urony.github.io/women-cycle/"
         }
       ],
       "documents": []
