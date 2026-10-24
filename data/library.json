@@ -50,7 +50,8 @@
       "description": "הורמונים ובקרה הורמונלית.",
       "toolOrder": [
         "tool-x82u8w",
-        "tool-hpvtjz"
+        "tool-hpvtjz",
+        "tool-80npg3"
       ]
     },
     {
@@ -357,6 +358,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://urony.github.io/pulse_breath_learning_app/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-80npg3",
+      "title": "צירים אנדוקרינים (נרומה ופתלוגיה)",
+      "description": "המטרה של הכלי הזה היא לעזור לתלמידים להבין את הצירים ההורמונליים של הורמון הגדילה, הורמון התריס והאדרנל. התלמידים יוכלו לבחור ציר, לראות מה קורה במצב נורמלי, לבחור מחלה ולראות את השינוי שמתרחש בציר. יש אפשרות להיות במצב אבחון שבו רואים את הציר וההשתנות שלו, ואז צריך לבחור, לאור השינוי, מה המחלה.",
+      "developer": "אורי העליון",
+      "updated": "2026-10-24",
+      "hidden": false,
+      "topicIds": [
+        "endocrinology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://urony.github.io/interactive-Endocrine-Axis-Simulator/"
         }
       ],
       "documents": []
