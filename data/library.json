@@ -51,7 +51,8 @@
       "toolOrder": [
         "tool-80npg3",
         "tool-x82u8w",
-        "tool-hpvtjz"
+        "tool-hpvtjz",
+        "tool-879o1n"
       ]
     },
     {
@@ -376,6 +377,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://urony.github.io/interactive-Endocrine-Axis-Simulator/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-879o1n",
+      "title": "אבחון סיבות לקושינג",
+      "description": "מעין משחקון קצר שבו התלמידים מקבלים מקרה של קושינג, סיפור מקרה, תמונה של בדיקות דם, תמונה של בדיקות CT או MRI, והם צריכים לבחור מתוך ארבע אפשרויות את הסיבה לקושינג, לנמק, ובסוף לשלוח בוואטסאפ למורה את הדוח של המסקנות שלו, כפי שהמערכת מוציאה.",
+      "developer": "אורי העליון",
+      "updated": "2026-10-27",
+      "hidden": false,
+      "topicIds": [
+        "endocrinology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://urony.github.io/cushing_syndrom_DD/"
         }
       ],
       "documents": []
