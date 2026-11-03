@@ -138,6 +138,18 @@
       "image": "\"C:\\Users\\urony\\OneDrive\\משותף עם בית\\03 הובלת AI במערכות רפואיות\\01 - דברים שאני עושה לעצמי\\00-רפואה שונות\\אתר חומרים במדעי בריאות\\assets\\topics\\magnific__an-illustration-in-this-style-a-female-teacher-sit__70182.png\"",
       "description": "תכנים שונים הקשורים לרפואה אך לא פרק מסוים בתוכנית הלימודים. מאפשר לתת הרחבות בכיתה או שיערוי אקסטרא לתלמידים.",
       "toolOrder": []
+    },
+    {
+      "id": "t-65qnis",
+      "title": "נושא חדש",
+      "icon": "",
+      "parentId": "t-hs39vn",
+      "hidden": false,
+      "image": "",
+      "description": "",
+      "toolOrder": [
+        "tool-q7qsxu"
+      ]
     }
   ],
   "tools": [
@@ -669,6 +681,25 @@
         {
           "label": "מערכת רביה גברית תפקידים",
           "url": "https://wordwall.net/play/108597/672/740"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-q7qsxu",
+      "title": "מעבדה נוירולוגית",
+      "description": "מעבדה דיגיטלית לתלמידי רפואה : מדידת יציבות (רומברג) ורעד בעזרת חיישן התנועה של הטלפון, השוואה בין תנוחות ודוח PDF. סימולטור לימודי, לא מכשיר רפואי",
+      "developer": "שולי קוצר",
+      "updated": "2026-11-03",
+      "hidden": false,
+      "topicIds": [
+        "t-65qnis",
+        "neurology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://shulykotzer.github.io/PhysioMotion-Lab/"
         }
       ],
       "documents": []
