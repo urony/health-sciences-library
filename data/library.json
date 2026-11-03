@@ -135,7 +135,7 @@
       "icon": "🧑‍💻",
       "parentId": null,
       "hidden": false,
-      "image": "assets\\topics\\time.png",
+      "image": "assets/topics/time.png",
       "description": "תכנים שונים הקשורים לרפואה אך לא פרק מסוים בתוכנית הלימודים. מאפשר לתת הרחבות בכיתה או שיערוי אקסטרא לתלמידים.",
       "toolOrder": []
     },
