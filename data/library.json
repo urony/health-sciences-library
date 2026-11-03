@@ -25,7 +25,8 @@
       "image": "assets/topics/cardiology.jpg",
       "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.",
       "toolOrder": [
-        "tool-4q4fgo"
+        "tool-4q4fgo",
+        "tool-g10siw"
       ]
     },
     {
@@ -418,6 +419,28 @@
         {
           "label": "צד המורה",
           "url": "https://urony.github.io/endocrine-escaperoom1/teacher.html"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-g10siw",
+      "title": "התאמת איברים בלב",
+      "description": "משחק wordwall של התאמת שם של איבר לאיבר. בעברית ובאנגלית",
+      "developer": "אילת קליימן",
+      "updated": "2026-11-03",
+      "hidden": false,
+      "topicIds": [
+        "cardiology"
+      ],
+      "links": [
+        {
+          "label": "מושגים בעברית",
+          "url": "https://wordwall.net/resource/65137810/%D7%A7%D7%A8%D7%93%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%9E%D7%95%D7%A9%D7%92%D7%99%D7%9D-%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA"
+        },
+        {
+          "label": "משוגים באנגלית",
+          "url": "https://wordwall.net/resource/65137740/%D7%A7%D7%A8%D7%93%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%9E%D7%95%D7%A9%D7%92%D7%99%D7%9D-%D7%91%D7%90%D7%A0%D7%92%D7%9C%D7%99%D7%AA"
         }
       ],
       "documents": []
