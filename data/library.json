@@ -69,8 +69,9 @@
       "description": "",
       "toolOrder": [
         "tool-af7fog",
+        "tool-kzaxuv",
         "tool-v2npmk",
-        "tool-kzaxuv"
+        "tool-h1gktu"
       ]
     },
     {
@@ -542,6 +543,48 @@
         {
           "label": "המטולוגיה ולימפה תפקיד",
           "url": "https://wordwall.net/play/54539/090/255"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-h1gktu",
+      "title": "משחקי wordwall נפרלוגיה",
+      "description": "אלו לינקים לכל \"משחקי החזרה על האנטומיה\" של נפרלוגיה  ב- wordwall\nשימו לב יש תרגילים של כתיבת מושגים בהם  מקבלים מונח כתוב באנגלית באותיות מעורבבות, וצריך לגרור כל אות על המקום שלה לפי הסדר, המטרה לתרגל אתכם גם בכתיבה של המונח. כדי שתדעו מה המונח, כרמז כתוב התפקיד של כל מונח.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-03",
+      "hidden": false,
+      "topicIds": [
+        "nephrology"
+      ],
+      "links": [
+        {
+          "label": "כליה ומערכת שתן עברית",
+          "url": "https://wordwall.net/play/54513/325/829"
+        },
+        {
+          "label": "כליה ומערכת שתן אנגלית",
+          "url": "https://wordwall.net/play/54513/637/362"
+        },
+        {
+          "label": "כליה ומערכת שתן תפקידים",
+          "url": "https://wordwall.net/play/54514/162/661"
+        },
+        {
+          "label": "כליה נפרון עברית",
+          "url": "https://wordwall.net/play/54514/776/377"
+        },
+        {
+          "label": "כליה נפרון אנגלית",
+          "url": "https://wordwall.net/play/54514/962/956"
+        },
+        {
+          "label": "כליה נפרון תפקידים",
+          "url": "https://wordwall.net/play/54515/454/631"
+        },
+        {
+          "label": "כליה כתיבת מושגים",
+          "url": "https://wordwall.net/play/54933/180/139"
         }
       ],
       "documents": []
