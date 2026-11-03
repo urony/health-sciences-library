@@ -25,9 +25,9 @@
       "image": "assets/topics/cardiology.jpg",
       "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.",
       "toolOrder": [
+        "tool-ildvn8",
         "tool-g10siw",
-        "tool-4q4fgo",
-        "tool-ildvn8"
+        "tool-4q4fgo"
       ]
     },
     {
@@ -39,7 +39,8 @@
       "image": "assets/topics/hematology.jpg",
       "description": "",
       "toolOrder": [
-        "tool-692abr"
+        "tool-692abr",
+        "tool-yftb86"
       ]
     },
     {
@@ -515,6 +516,32 @@
         {
           "label": "כתיבת מושגים",
           "url": "https://wordwall.net/play/54932/758/322"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-yftb86",
+      "title": "משחקי wordwall המטולוגיה",
+      "description": "אלו לינקים לכל \"משחקי החזרה על האנטומיה\" ב- wordwall בהמטולוגיה\nשימו לב יש תרגילים של כתיבת מושגים בהם  מקבלים מונח כתוב באנגלית באותיות מעורבבות, וצריך לגרור כל אות על המקום שלה לפי הסדר, המטרה לתרגל אתכם גם בכתיבה של המונח. כדי שתדעו מה המונח, כרמז כתוב התפקיד של כל מונח.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-03",
+      "hidden": false,
+      "topicIds": [
+        "hematology"
+      ],
+      "links": [
+        {
+          "label": "המטולוגיה ולימפה עברית",
+          "url": "https://wordwall.net/play/54537/214/636"
+        },
+        {
+          "label": "המטולוגיה ולימפה אנגלית",
+          "url": "https://wordwall.net/play/54538/180/60"
+        },
+        {
+          "label": "המטולוגיה ולימפה תפקיד",
+          "url": "https://wordwall.net/play/54539/090/255"
         }
       ],
       "documents": []
