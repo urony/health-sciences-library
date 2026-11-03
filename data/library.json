@@ -128,6 +128,16 @@
       "image": "assets/topics/gastroenterology.jpg",
       "description": "",
       "toolOrder": []
+    },
+    {
+      "id": "t-hs39vn",
+      "title": "הרחבות",
+      "icon": "🧑‍💻",
+      "parentId": null,
+      "hidden": false,
+      "image": "",
+      "description": "תכנים שונים הקשורים לרפואה אך לא פרק מסוים בתוכנית הלימודים. מאפשר לתת הרחבות בכיתה או שיערוי אקסטרא לתלמידים.",
+      "toolOrder": []
     }
   ],
   "tools": [
