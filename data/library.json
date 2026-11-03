@@ -25,8 +25,9 @@
       "image": "assets/topics/cardiology.jpg",
       "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.",
       "toolOrder": [
+        "tool-g10siw",
         "tool-4q4fgo",
-        "tool-g10siw"
+        "tool-ildvn8"
       ]
     },
     {
@@ -460,6 +461,60 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://mi-ani.vercel.app/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-ildvn8",
+      "title": "משחקי wordwall בקרדיולוגיה (כולל חשמלית, רקמות וכלי דם)",
+      "description": "אלו לינקים לכל \"משחקי החזרה על האנטומיה\" ב- wordwall\nשימו לב יש תרגילים של כתיבת מושגים בהם  מקבלים מונח כתוב באנגלית באותיות מעורבבות, וצריך לגרור כל אות על המקום שלה לפי הסדר, המטרה לתרגל אתכם גם בכתיבה של המונח. כדי שתדעו מה המונח, כרמז כתוב התפקיד של כל מונח.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-03",
+      "hidden": false,
+      "topicIds": [
+        "cardiology"
+      ],
+      "links": [
+        {
+          "label": "עברית",
+          "url": "https://wordwall.net/play/54928/799/68"
+        },
+        {
+          "label": "אנגלית",
+          "url": "https://wordwall.net/play/54929/004/138"
+        },
+        {
+          "label": "תפקידים",
+          "url": "https://wordwall.net/play/54929/189/874"
+        },
+        {
+          "label": "הולכה חשמלית עברית",
+          "url": "https://wordwall.net/play/54929/189/874"
+        },
+        {
+          "label": "הולכה חשמלית אנגלית",
+          "url": "https://wordwall.net/play/54930/699/595"
+        },
+        {
+          "label": "הולכה חשמלית תפקידים",
+          "url": "https://wordwall.net/play/54931/021/134"
+        },
+        {
+          "label": "רקמה וכלי דם עברות",
+          "url": "https://wordwall.net/play/54931/407/442"
+        },
+        {
+          "label": "רקמה וכלי דם אנגלית",
+          "url": "https://wordwall.net/play/54931/726/161"
+        },
+        {
+          "label": "רקמה וכלי דם תפקידים",
+          "url": "https://wordwall.net/play/54932/030/642"
+        },
+        {
+          "label": "כתיבת מושגים",
+          "url": "https://wordwall.net/play/54932/758/322"
         }
       ],
       "documents": []
