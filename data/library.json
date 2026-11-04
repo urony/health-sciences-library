@@ -28,7 +28,8 @@
         "tool-ildvn8",
         "tool-g10siw",
         "tool-4q4fgo",
-        "tool-d5r6ex"
+        "tool-d5r6ex",
+        "tool-6x7hid"
       ]
     },
     {
@@ -58,8 +59,8 @@
         "tool-gjcwr7",
         "tool-879o1n",
         "tool-qmld4j",
-        "tool-hpvtjz",
-        "tool-4ms1zh"
+        "tool-4ms1zh",
+        "tool-hpvtjz"
       ]
     },
     {
@@ -738,6 +739,25 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://jeopardylabs.com/play/--23712"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-6x7hid",
+      "title": "ג'פורדי קרדיולוגיה והמטולוגיה",
+      "description": "משחק ג'פורדי על מושגים מקרדיולוגיה והמטולוגיה. מחלקים את התלמידים לקבוצות, כל קבוצה בוחרת איזה נשוא ורמת קושי שאלה ואז צריכה לענות על שאלה (כדאי להגביל בזמן) ענתה נכון - זכתה בנקודות.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-04",
+      "hidden": false,
+      "topicIds": [
+        "cardiology",
+        "hematology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://jeopardylabs.com/play/2023-02-07-35"
         }
       ],
       "documents": []
