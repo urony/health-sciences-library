@@ -29,7 +29,8 @@
         "tool-g10siw",
         "tool-4q4fgo",
         "tool-d5r6ex",
-        "tool-6x7hid"
+        "tool-6x7hid",
+        "tool-2n0vnw"
       ]
     },
     {
@@ -758,6 +759,28 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://jeopardylabs.com/play/2023-02-07-35"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-2n0vnw",
+      "title": "ג'פורדי בקרדיולוגיה",
+      "description": "משחקי ג'פורדי בקרדיולוגיה. אחד רק על אנטומיה ופיזיולוגיה - האחר כולל גם פילוגיה. מחלקים את התלמידים לקבוצות, כל קבוצה בוחרת איזה נשוא ורמת קושי שאלה ואז צריכה לענות על שאלה (כדאי להגביל בזמן) ענתה נכון - זכתה בנקודות.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-04",
+      "hidden": false,
+      "topicIds": [
+        "cardiology"
+      ],
+      "links": [
+        {
+          "label": "אנטומיה ופיסילוגיה",
+          "url": "https://jeopardylabs.com/play/2022-09-24-20"
+        },
+        {
+          "label": "קרידולוגיה כולל פתלוגיה",
+          "url": "https://jeopardylabs.com/play/mi-61665"
         }
       ],
       "documents": []
