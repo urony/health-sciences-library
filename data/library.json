@@ -58,7 +58,8 @@
         "tool-gjcwr7",
         "tool-879o1n",
         "tool-qmld4j",
-        "tool-hpvtjz"
+        "tool-hpvtjz",
+        "tool-4ms1zh"
       ]
     },
     {
@@ -719,6 +720,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://quizlet.com/il/855808402/%D7%9E%D7%95%D7%A9%D7%92%D7%99%D7%9D-%D7%91%D7%A7%D7%A8%D7%93%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%90%D7%A0%D7%98%D7%95%D7%9E%D7%99%D7%94-flash-cards/?i=19ctkv&x=1jqt"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-4ms1zh",
+      "title": "ג'פרדי אנדוקרינלוגיה",
+      "description": "משחק ג'פורדי על כל מושגי אנדוקרינולוגיה. מחלקים את התלמידים לקבוצות, כל קבוצה בוחרת איזה נשוא ורמת קושי שאלה ואז צריכה לענות על שאלה (כדאי להגביל בזמן) ענתה נכון - זכתה בנקודות.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-04",
+      "hidden": false,
+      "topicIds": [
+        "endocrinology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://jeopardylabs.com/play/--23712"
         }
       ],
       "documents": []
