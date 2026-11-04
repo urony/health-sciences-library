@@ -142,18 +142,6 @@
       "image": "assets/topics/cardiology.jpg",
       "description": "תכנים שונים הקשורים לרפואה אך לא פרק מסוים בתוכנית הלימודים. מאפשר לתת הרחבות בכיתה או שיערוי אקסטרא לתלמידים.",
       "toolOrder": []
-    },
-    {
-      "id": "t-65qnis",
-      "title": "נושא חדש",
-      "icon": "",
-      "parentId": "t-hs39vn",
-      "hidden": false,
-      "image": "",
-      "description": "",
-      "toolOrder": [
-        "tool-q7qsxu"
-      ]
     }
   ],
   "tools": [
