@@ -27,7 +27,8 @@
       "toolOrder": [
         "tool-ildvn8",
         "tool-g10siw",
-        "tool-4q4fgo"
+        "tool-4q4fgo",
+        "tool-d5r6ex"
       ]
     },
     {
@@ -700,6 +701,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://shulykotzer.github.io/PhysioMotion-Lab/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-d5r6ex",
+      "title": "קויזלט קרדיולוגיה",
+      "description": "קויזלט של מושגים בביולוגיה. אפשר לתת לתלמידים לתרגל או להשתמש כחידון.",
+      "developer": "איילת קליימן",
+      "updated": "2026-11-04",
+      "hidden": false,
+      "topicIds": [
+        "cardiology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://quizlet.com/il/855808402/%D7%9E%D7%95%D7%A9%D7%92%D7%99%D7%9D-%D7%91%D7%A7%D7%A8%D7%93%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%90%D7%A0%D7%98%D7%95%D7%9E%D7%99%D7%94-flash-cards/?i=19ctkv&x=1jqt"
         }
       ],
       "documents": []
