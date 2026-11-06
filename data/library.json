@@ -74,6 +74,7 @@
       "description": "",
       "toolOrder": [
         "tool-af7fog",
+        "tool-t4n7ja",
         "tool-h1gktu",
         "tool-kzaxuv",
         "tool-v2npmk"
@@ -768,6 +769,24 @@
         {
           "label": "קרידולוגיה כולל פתלוגיה",
           "url": "https://jeopardylabs.com/play/mi-61665"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-t4n7ja",
+      "title": "בינגו אנטומיה בנפרוגלוגיה",
+      "description": "זה משחק בינגו של אנטומיה בנפרולוגיה. המורה צריך להיכנס מראש להכנת כרטיסיות, להחליט כמה תלמידים יש לו ולהדפיס כרטיסיות. בכל כרטיסייה טבלת המספרים תהיה שונה. ואז המורה נכנס למשחק עצמו, בוחר האם הוא רוצה רק עברית, עברית ואנגלית או הכל ביחד, והמשחק מעלה כל פעם אחד מהחלקים באיור באופן אקראי. התלמיד צריך לזהות את החלק באיור, להבין מה המספר שעל האיור, ובהתאם לסמן בלוח הבינגו שלו.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-06",
+      "hidden": false,
+      "topicIds": [
+        "nephrology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://urony.github.io/nephrology-bingo/?utm_source=chatgpt.com"
         }
       ],
       "documents": []
