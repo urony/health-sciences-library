@@ -77,7 +77,8 @@
         "tool-t4n7ja",
         "tool-h1gktu",
         "tool-kzaxuv",
-        "tool-v2npmk"
+        "tool-v2npmk",
+        "tool-aja0k6"
       ]
     },
     {
@@ -787,6 +788,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://urony.github.io/nephrology-bingo/?utm_source=chatgpt.com"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-aja0k6",
+      "title": "סימולציה של הפקעית בנפרון",
+      "description": "הסימולציה הזאת מדגימה את ההשפעה של הגורמים השונים בנפרון: רוחב העורק המוביל, רוחב העורק המוציא, לחץ הדם, הלחץ האוסמוטי הקולואידי וכן הלאה. התלמידים יכולים לשחק בזה ולראות השפעה של כל אחד.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-07",
+      "hidden": false,
+      "topicIds": [
+        "nephrology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://urony.github.io/glomerular_filtration_lab/"
         }
       ],
       "documents": []
