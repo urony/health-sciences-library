@@ -25,13 +25,13 @@
       "image": "assets/topics/cardiology.jpg",
       "description": "הלב וכלי הדם: פיזיולוגיה, אבחון וטיפול.",
       "toolOrder": [
+        "tool-t7voj9",
         "tool-ildvn8",
         "tool-g10siw",
+        "tool-2n0vnw",
         "tool-6x7hid",
         "tool-d5r6ex",
-        "tool-4q4fgo",
-        "tool-2n0vnw",
-        "tool-t7voj9"
+        "tool-4q4fgo"
       ]
     },
     {
@@ -758,14 +758,14 @@
       "title": "ג'פורדי בקרדיולוגיה",
       "description": "משחקי ג'פורדי בקרדיולוגיה. אחד רק על אנטומיה ופיזיולוגיה - האחר כולל גם פילוגיה. מחלקים את התלמידים לקבוצות, כל קבוצה בוחרת איזה נשוא ורמת קושי שאלה ואז צריכה לענות על שאלה (כדאי להגביל בזמן) ענתה נכון - זכתה בנקודות.",
       "developer": "אורי העליון",
-      "updated": "2026-11-04",
+      "updated": "2026-11-07",
       "hidden": false,
       "topicIds": [
         "cardiology"
       ],
       "links": [
         {
-          "label": "אנטומיה ופיסילוגיה",
+          "label": "אנטומיה ופיזיולוגיה",
           "url": "https://jeopardylabs.com/play/2022-09-24-20"
         },
         {
