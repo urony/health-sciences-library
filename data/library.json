@@ -31,7 +31,8 @@
         "tool-2n0vnw",
         "tool-6x7hid",
         "tool-d5r6ex",
-        "tool-4q4fgo"
+        "tool-4q4fgo",
+        "tool-1caiw1"
       ]
     },
     {
@@ -864,6 +865,24 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://urony.github.io/female_reproductive_bingo/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-1caiw1",
+      "title": "דף עבודה על דופק, תפוקת לב ולחץ דם",
+      "description": "קפעילות לתלמידים שבה הם מודדים דופק, תפוקת לב ולחץ דם של עצמם לפני ואחרי מאמץ, ומפיקים PDF שנשלח למורה.",
+      "developer": "ד\"ר סיון הוד",
+      "updated": "2026-11-08",
+      "hidden": false,
+      "topicIds": [
+        "cardiology"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://heart-lab.sites.tab.bot/"
         }
       ],
       "documents": []
