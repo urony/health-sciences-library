@@ -13,7 +13,8 @@
         "tool-0nrz0i",
         "tool-pf77v6",
         "tool-bno7al",
-        "tool-13fj88"
+        "tool-13fj88",
+        "tool-jsq7ac"
       ]
     },
     {
@@ -883,6 +884,28 @@
         {
           "label": "פתיחת הכלי",
           "url": "https://heart-lab.sites.tab.bot/"
+        }
+      ],
+      "documents": []
+    },
+    {
+      "id": "tool-jsq7ac",
+      "title": "כלי לבניית מבחנים במדעי בריאות",
+      "description": "הכלי הזה נועד לעזור לבנות מבחנים במדעי הבריאות. הוא כולל מאגר של שאלות מכל הבגרויות מ‑2011 עד 2016 ועוד מאגרי שאלות שכתבו מורים. אפשר לבחור שאלות, לסדר אותן ולבנות מבחן שבסופו של דבר יורד כמסמך וורד שניתן להדפיס לתלמידנו היקרים מכל.",
+      "developer": "אורי העליון",
+      "updated": "2026-11-08",
+      "hidden": false,
+      "topicIds": [
+        "general"
+      ],
+      "links": [
+        {
+          "label": "פתיחת הכלי",
+          "url": "https://exams.uronytools.com/?utm_source=chatgpt.com"
+        },
+        {
+          "label": "סרטון הסבר",
+          "url": "https://www.youtube.com/watch?v=oGGcTHYybLk"
         }
       ],
       "documents": []
