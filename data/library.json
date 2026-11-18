@@ -946,8 +946,12 @@
       ],
       "links": [
         {
-          "label": "פתיחת הכלי",
+          "label": "הדף הראשי למורה",
           "url": "https://urony.github.io/cadiology_all/"
+        },
+        {
+          "label": "הכלי כולו לתלמיד",
+          "url": "https://urony.github.io/cadiology_all/s/index.html"
         }
       ],
       "documents": []
